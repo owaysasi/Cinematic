@@ -1,0 +1,78 @@
+@font-face{
+    font-family: 'Satisfy';
+  src: local('Satisfy'), url(../../Fonts/Satisfy-Regular.ttf) format('truetype');
+}
+
+.browse-cont{
+    background-color: #2C2C2C;
+
+}
+
+.browse-input{
+    height: 150px;
+    margin-top: 50px;
+    
+}
+
+.form-browse{
+    display: flex;
+    justify-content: center;
+}
+
+.inputfield-browse{
+    width: 60%;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 10px 0px 0px 10px;
+    padding-left: 20px;
+}
+
+.btn-browse{
+    outline: none;
+    background-color: #FF9700;
+    border: none;
+    height: 40px;
+    width: 50px;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.browse-label{
+    font-size: 20px;
+    color: white;
+    font-family: 'Satisfy';
+}
+
+.slider-browse{
+    width: 200px;
+    color: #FF9700;
+}
+
+.pagination {
+    margin: 25px 15px;
+    display: flex;
+    list-style: none;
+    outline: none;
+  }
+  .pagination > .active > a{
+    background-color: #FF9700 ;
+    border-color: #FF9700 ;
+    color: #fff;
+  }
+  .pagination > li > a{
+    border: 1px solid #FF9700 ;
+    padding: 5px 10px;
+    outline: none;
+    cursor: pointer;
+  }
+  .pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus{
+    background-color: #FF9700 ;
+    border-color: #FF9700;
+    outline: none ;
+  }
+  .pagination > li > a, .pagination > li > span{
+    color: #FF9700;
+  }
+  .pagination > li:first-child > a, .pagination > li:first-child > span, .pagination > li:last-child > a, .pagination > li:last-child > span{
+    border-radius: unset
+  }

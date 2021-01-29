@@ -1,0 +1,78 @@
+.foot-cont{
+    height: 100px;
+    background-color: #2C2C2C;
+    padding-top: 25px;
+    border-top: 2px solid #FF9700;
+}
+
+.footer-logo-cont{
+    height: 100%;
+}
+
+.footer-logo{
+    height: 60px;
+}
+
+.rights{
+    color: white;
+    margin-top: 15px;
+}
+
+.footer-social{
+    display: flex;
+    justify-content: space-around;
+    width: 200px;   
+    padding-top: 10px;
+    height: 40px;
+    border: 1px solid #FF9700;
+    border-radius: 15px;
+    background-color: #FF9700;
+} 
+
+@media only screen and (max-width: 400px){
+    .footer-social{
+        width: 150px;   
+    } 
+
+    .rights{
+        font-size: 10px;
+        margin-top: 10px;
+    }
+}
+
+.logo-cont{
+    width: 30px;
+    height: 30px;
+}
+
+.facebook{
+    color: #2C2C2C;
+}
+ 
+.linkedin{
+    color: #2C2C2C;
+}
+
+.github{
+    color: #2C2C2C;
+}
+.google{
+    color: #2C2C2C;
+}
+  .facebook:hover {
+    color: white;
+  }
+  
+  .linkedin:hover {
+    color: white;
+  }
+  
+  .github:hover {
+    color: white;
+  }
+  
+  .google:hover {
+    color: white;
+  }
+  
+  

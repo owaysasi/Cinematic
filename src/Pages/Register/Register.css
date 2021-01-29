@@ -1,0 +1,108 @@
+@font-face{
+    font-family: 'Satisfy';
+  src: local('Satisfy'), url(../../Fonts/Satisfy-Regular.ttf) format('truetype');
+}
+
+.register-cont{
+    height: 625px;
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    font-family: Satisfy;
+} 
+
+.mini-register-cont{
+    margin-top: 30px;
+    width: 400px;
+    height: 580px;    
+    position: absolute;
+    right: 350px;
+}
+
+.register-form{
+    height: 100%;
+    width: 400px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 20px;
+    background-color: #2C2C2C;
+}
+
+.register-title{
+    color: white;
+    font-size: 32px;
+}
+
+.logo-register-cinematic{
+    height: 30px;
+    position: absolute;
+    left: 70px;
+    top: 20px;
+}
+
+.label-register{
+    float: left;
+    margin-top: 15px;
+    color: white;
+}
+
+.set-btns{
+    margin-bottom: 20px;
+}
+
+.error-show{
+    color: red;
+    text-align: left;
+}
+
+.already-register{
+    color: white;
+    position: absolute;
+    right: 50px;
+    top: 30px;
+}
+
+.anchor-login{
+    color: #FF9700;
+    margin-left: 5px;
+}
+
+@media (max-width: 400px){
+    .register-cont{
+        height: 812px;
+        width: 375px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .mini-register-cont{
+        width: 100%;    
+        height: 100%;
+        margin: 0;
+        background-color: rgb(0, 0, 0);
+        right: 0px;
+        display: flex;
+        justify-content: center;
+
+    }    
+
+    .register-form{
+        height: 80%;
+        width: 90%;
+        padding-left: 30px;
+        padding-right: 30px;
+        border-radius: 20px;
+        background-color: #2C2C2C;
+        margin-top: 100px;
+    }
+
+    .logo-register-cinematic{
+        
+        
+    }
+
+    .already-register{
+        right: 10px;
+        bottom: 0px;
+        font-size: 12px;
+    }
+} 

@@ -1,0 +1,98 @@
+
+.card-cont{
+  border: 2px solid #FF9700;
+  border-radius: 10px;
+  width: 210px;
+  height: 380px;
+  background-color: #FF9700;
+  position: relative;
+  opacity: 70%;
+}
+
+.card-cont:hover{
+  opacity: 100%;
+  transition: 0.3s;
+}
+
+.poster-pic{
+  height: 300px;
+  width: auto;
+  border-radius: 10px;
+}
+
+.poster-details{
+  color: white;
+}
+
+.poster-title{
+  font-size: 18px;
+  color: white;
+}
+
+.poster-date{
+  margin-top: -10px;
+  color: white;
+}
+
+.poster-rating{
+  background-color: #FF9700;
+  color: white;
+  width: 40px;
+  height: 20px;
+  border-radius: 20px;
+  align-items: center;
+  position: absolute;
+  top: 5px;
+  left: 10px;
+}
+
+.poster-lang{
+  background-color: #FF9700;
+  color: white;
+  width: 40px;
+  height: 20px;
+  border-radius: 20px;
+  align-items: center;
+  position: absolute;
+  top: 5px;
+  right: 10px;
+}
+
+.column{
+  margin-bottom: 20px;
+}
+
+.movie-modal{
+  background-color: #FF9700;
+  border-radius: 15px;
+  position: relative;
+}
+
+.modal-title{
+  color: white;
+}
+
+@media (max-width: 400px){
+  .card-cont{
+    width: 165px;
+    height: 300px;
+    background-color: #FF9700;
+    position: relative;
+    opacity: 70%;
+  }
+
+  .poster-pic{
+    height: 236px;
+  }
+
+  .poster-title{
+    font-size: 14px;
+  }
+  
+  .poster-date{
+    font-size: 10px;
+  }
+  .modal-title{
+    width: 200px;
+  }
+}

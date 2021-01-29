@@ -1,0 +1,26 @@
+@font-face{
+    font-family: 'Satisfy';
+  src: local('Satisfy'), url(../../Fonts/Satisfy-Regular.ttf) format('truetype');
+}
+
+.upcoming-cont{   
+    background-color: #2C2C2C;
+    font-family: 'Satisfy';
+}
+
+.upcoming-title{
+    font-size: 50px;
+    color: white;
+    font-family: 'Satisfy';
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.movie-series{
+    margin-bottom: 50px;
+}
+
+.poster-image{
+    height: 200px;
+    width: 120px;
+}

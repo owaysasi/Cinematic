@@ -1,0 +1,38 @@
+@font-face{
+    font-family: 'Satisfy';
+  src: local('Satisfy'), url(../../Fonts/Satisfy-Regular.ttf) format('truetype');
+}
+
+.mini-error-cont{
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.error-cont{   
+    background-color: #2C2C2C;
+    position: relative;
+    align-items: center;
+    height: 625px;
+    font-family: 'Satisfy';
+}
+
+.error-title{
+    font-size: 120px;
+    color: #FF9700;
+}
+
+.go-back-btn{
+    background-color: white;
+    border: 2px solid #FF9700;
+    border-radius: 5px;
+    height: 40px;
+    width: 120px;
+    font-weight: bold;
+    color: #2C2C2C;
+}
+
+@media (max-width: 400px ){
+    .error-title{
+        font-size: 60px;
+    }
+}
