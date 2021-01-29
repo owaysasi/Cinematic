@@ -19,7 +19,7 @@ import Browse from './Pages/Browse/Browse';
 
 function App() {
   return (
-    <Router basename="/Cinematic-app">
+    <Router basename="/cinematic">
       <div className="App">
         <Switch>
           <Route exact path="/register" component={Register} />
