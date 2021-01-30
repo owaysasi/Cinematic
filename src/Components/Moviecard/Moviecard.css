@@ -72,6 +72,15 @@
   color: white;
 }
 
+.backpic{
+  position: absolute;
+  right: 20px ;
+  top: 20px;
+  border: 2px solid #FF9700 ;
+  border-radius:5px;
+  height: 150px ;               
+}
+
 @media (max-width: 400px){
   .card-cont{
     width: 165px;
@@ -94,5 +103,11 @@
   }
   .modal-title{
     width: 200px;
+  }
+
+  .backpic{
+    right: 10px ;
+    top: 10px; 
+    height: 80px;               
   }
 }

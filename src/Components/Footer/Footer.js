@@ -33,22 +33,22 @@ function Footer(){
                 <Col xs={{span: 5, offset:3}} lg={{span: 6, offset:3}}>
                 <div className="footer-social">
                     <div className="logo-cont">
-                        <a class="facebook" href="https://www.facebook.com/oways.asi">
+                        <a className="facebook" href="https://www.facebook.com/oways.asi">
                             <Facebook style={{width:`20px`, height:`20px`}}/>
                         </a>
                     </div>
                     <div className="logo-cont">
-                        <a class="linkedin" href="https://www.linkedin.com/in/oways-asi-981170135/">
+                        <a className="linkedin" href="https://www.linkedin.com/in/oways-asi-981170135/">
                             <Linkedin style={{width:`20px`, height:`20px`}}/>
                         </a>
                     </div>
                     <div className="logo-cont">
-                        <a class="github" href="https://github.com/owaysasi">
+                        <a className="github" href="https://github.com/owaysasi">
                             <Github style={{width:`20px`, height:`20px`}}/>
                         </a>
                     </div>
                     <div className="logo-cont">
-                        <a class="google" href="google  ">
+                        <a className="google" href="google  ">
                             <Google style={{width:`20px`, height:`20px`}}/>
                         </a>
                     </div>

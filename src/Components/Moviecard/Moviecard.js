@@ -45,13 +45,7 @@ function Moviecard(props){
                 <p>Film language : {lang}</p>
                 <p>Film rating : {rating}/10</p>
                 <p>Film brief : {desc}</p>
-                <img style={{
-                        position:`absolute`, 
-                        right:`20px`, top:`20px`, 
-                        border:`2px solid #FF9700`, 
-                        borderRadius:`5px`, 
-                        height:`150px`
-                    }} 
+                <img className="backpic"
                     src={`https://image.tmdb.org/t/p/w500${backpic}`}/>
             </Modal>
         </div>
